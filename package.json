@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
+    "start": "npx @tailwindcss/cli -i src/style/style.css -o src/style/output.css && electron .",
     "build:css": "npx @tailwindcss/cli -i src/style/style.css -o src/style/output.css"
   },
   "keywords": [],
