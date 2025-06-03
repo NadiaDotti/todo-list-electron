@@ -1,5 +1,5 @@
 document.getElementById('start').addEventListener('click', () => {
-  window.electronAPI.loadDetailPage();
+  window.electronAPI.loadPage('detail.html');
 });
 
 document.getElementById('quit').addEventListener('click', () => {
